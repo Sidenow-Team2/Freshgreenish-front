@@ -1,0 +1,12 @@
+
+
+
+const Product()=>{
+
+}
+return(
+
+)
+
+
+default
