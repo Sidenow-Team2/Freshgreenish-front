@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { BrowserRouter } from 'react-router-dom';
 import React from 'react';
 import './App.css';
@@ -19,6 +20,17 @@ function App() {
         <Footer />
       </div>
     </BrowserRouter>
+=======
+import React from 'react';
+import './App.css';
+import MainPage from './pages/Cart'; // MainPage 컴포넌트를 임포트
+
+function App() {
+  return (
+    <div className="App">
+      <MainPage /> 
+    </div>
+>>>>>>> fbf027c17944cc3357f4e76bf31be8344b886bd2
   );
 }
 
