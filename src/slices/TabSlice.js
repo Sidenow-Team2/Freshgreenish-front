@@ -1,7 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit';
 
 const initialTabState = {
-    currentTab: "국산 과일"
+    currentTab: "국산 과일",
 };
 
 export const tabSlice = createSlice({
