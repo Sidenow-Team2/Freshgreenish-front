@@ -17,7 +17,7 @@ function TotalPrice() {
 
     return (
         <div className="total-price">
-            <span>구매 예정가: {totalPrice}원</span>
+           <span>구매 예정가: {totalPrice.toLocaleString()}원</span>
         </div>
     );
 }

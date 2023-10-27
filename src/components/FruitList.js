@@ -1,19 +1,21 @@
 import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { setCurrentTab} from '../slices/TabSlice';
-import { changeQuantity } from '../slices/QuantitySlice';
+import { changeQuantity } from '../slices/fruitListSlice';
 import { toggleSelectFruit } from '../slices/SelectedFruitsSlice';
 import { setFruits, changeDeliveryCycle, deleteFruit } from '../slices/fruitListSlice';
+import { setDeliveryCycle } from '../slices/deliveryDateSlice';
 import '../styles/FruitList.scss';
 import CheckIcon from './CheckIcon';
 import DeleteIcon from './DeleteIcon';
 import QuantityControl from './QuantityControl';
+import DeliveryDate from './DeliveryDate';
 import mockData from '../services/cartMockData.json'
 
 function FruitList() {
 
     const dispatch = useDispatch();
-    const currentTab = useSelector(state => state.fruits.currentTab);
+    const currentTab = useSelector(state => state.tab.currentTab);
     const fruits = useSelector(state => state.fruits.fruits);
     const selectedFruits = useSelector(state => state.selectedFruits.selectedFruits);
 
@@ -30,10 +32,6 @@ function FruitList() {
     }
     
 
-    const handleDeliveryCycleChange = (id, cycle) => {
-        dispatch(changeDeliveryCycle({ id, cycle }));
-    };
-
     const handleDeleteFruit = (id) => {
         dispatch(deleteFruit(id));
     };
@@ -45,22 +43,18 @@ function FruitList() {
                 <div key={fruit.id} className="fruit-item">
                     <div className="fruit-selection">
                     <button className={`fruit-select-btn ${selectedFruits.includes(fruit.id) ? 'selected' : ''}`}
-                    onClick={() => toggleSelectFruit(fruit.id)}>
+                    onClick={() => dispatch(toggleSelectFruit(fruit.id))}>
                     <CheckIcon isChecked={selectedFruits.includes(fruit.id)} />
                     </button>
                     </div>
                     <img src={fruit.image} alt={fruit.name} className="fruit-image"/> {/*과일 이미지 추가 */}
                     <span className="fruit-name">{fruit.name}</span>
-                    <QuantityControl fruitId={fruit.id} quantity={fruit.quantity} onChange={(change) => changeQuantity(fruit.id, change)} />
+                    <QuantityControl fruitId={fruit.id} quantity={fruit.quantity} />
                     <div className="delivery-cycle-control">
-                        <select
-                            value={fruit.deliveryCycle}
-                            onChange={(e) => handleDeliveryCycleChange(fruit.id, e.target.value)}
-                        >
-                            <option value="주 1회">주 1회</option>
-                            <option value="주 2회">주 2회</option>
-                            {/* 추가로 필요한 옵션들 */}
-                        </select>
+                        <DeliveryDate
+                            fruitId={fruit.id}
+                            selectedCycle={fruit.deliveryCycle}
+                        />
                     <span className="fruit-price">{fruit.price}원</span> {/* 가격 표시 추가 */}
                     <DeleteIcon onDelete={() => handleDeleteFruit(fruit.id)} />
                     </div>

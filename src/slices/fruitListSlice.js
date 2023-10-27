@@ -13,6 +13,12 @@ export const fruitListSlice = createSlice({
           state.fruits = action.payload;
       },
 
+      changeQuantity: (state, action) => {
+        const fruit = state.fruits.find(fruit => fruit.id === action.payload.id);
+        const newQuantity = fruit.quantity + action.payload.change;
+        fruit.quantity = newQuantity > 0 ? newQuantity : 1;
+      },
+
       changeDeliveryCycle: (state, action) => {
           const { id, cycle } = action.payload;
           const fruit = state.fruits.find(fruit => fruit.id === id);
@@ -31,7 +37,8 @@ export const fruitListSlice = createSlice({
 export const { 
   setFruits, 
   changeDeliveryCycle, 
-  deleteFruit 
+  deleteFruit,
+  changeQuantity
 } = fruitListSlice.actions;
 
 export default fruitListSlice.reducer;

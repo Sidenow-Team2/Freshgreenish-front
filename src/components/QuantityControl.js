@@ -1,6 +1,6 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
-import { changeQuantity } from '../slices/QuantitySlice'
+import { changeQuantity } from '../slices/fruitListSlice';
 import DecreaseIconPath from '../assets/icon/Disabled=true.svg'; 
 import IncreaseIconPath from '../assets/icon/Disabled=true-1.svg';
 import DecreaseActiveIconPath from '../assets/icon/Disabled=false.svg'; 

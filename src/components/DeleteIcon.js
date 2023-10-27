@@ -1,5 +1,5 @@
 import React from 'react';
-import deleteIconImage from '../assets/icon/Close.svg'
+import deleteIconImage from '../assets/icon/Cancel.svg'
 
 function DeleteIcon({ onDelete }) {
   return (
