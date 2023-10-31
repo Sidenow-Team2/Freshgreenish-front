@@ -5,6 +5,8 @@ export const loginSlice = createSlice({
   initialState: {
     isLoggedIn: false,
     user: null, // 사용자 정보를 저장할 필드 추가
+    token: '',
+    
   },
   reducers: {
     login: (state, action) => {
