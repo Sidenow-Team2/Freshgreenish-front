@@ -1,0 +1,217 @@
+* {
+    @import url('https://fonts.googleapis.com/css2?family=Habibi&family=Noto+Serif+KR&family=Roboto:wght@300&display=swap');
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  
+    
+    font-family: 'Habibi', serif;
+    font-family: 'Noto Serif KR', serif;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .product-detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .tob-box{
+        display: flex;
+        align-items: top;
+
+        .image {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            max-width: 300px;
+            height: 300px;
+            border: 1px solid #d3d3d3;
+            margin-right: 30px;
+            //   min-height: 150px;
+        }
+
+        .info {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            text-align: left;
+            padding-left: 3px;
+        
+        
+        }
+        
+        .title-set {
+            justify-content: flex-start;
+            margin-bottom: 5px;
+        }
+        .title {
+            font-size: 28px;
+            margin-bottom:5px;
+        }
+        .sub-title{
+            color:#808080;
+            margin-bottom: 23px;
+        }
+        .price{
+            font-size: 23px;
+            margin-bottom: 13px;
+        }
+        .login-alert{
+            font-size: 13px;
+            color: #8FBE88;
+            margin-bottom: 10px;
+        }
+    }
+    .info-details{
+        display: flex;
+        flex-direction: column;
+
+    .deli{
+        display: flex;
+        flex-direction: row;
+
+        .info-title{
+            margin: 10px 0 10px;
+            width:75px;
+        }
+        .info-detail{
+            margin: 10px 0 10px;
+            margin-left: 15px;
+        }
+    }
+
+    .sell{
+        display: flex;
+        flex-direction: row;
+
+        .info-title{
+            margin: 10px 0 10px;
+            width:75px;
+        }
+        .info-detail{
+            margin: 10px 0 10px;
+            margin-left: 15px;;
+        }
+    }
+
+    .pack{
+        display: flex;
+        flex-direction: row;
+
+        .info-title{
+            margin: 10px 0 10px;
+            width:75px;
+        }
+        .info-detail{
+            margin: 10px 0 10px;
+            margin-left: 15px;
+        }
+    }
+    .unit{
+        display: flex;
+        flex-direction: row;
+
+        .info-title{
+            margin: 10px 0 10px;
+            width:75px;
+        }
+        .info-detail{
+            margin: 10px 0 10px;
+            margin-left: 15px;
+        }
+    }
+    .kg{
+        display: flex;
+        flex-direction: row;
+
+        .info-title{
+            margin: 10px 0 10px;
+            width:75px;
+        }
+        .info-detail{
+            margin: 10px 0 10px;
+            margin-left: 15px;
+        }
+    }
+    .info-center{
+        display: flex;
+        flex-direction: column;
+    
+            .from{
+                display: flex;
+                flex-direction:row;
+            }
+            .info-title{
+                margin: 10px 0 10px;
+                margin-right: 50px;
+            }
+            .info-detail{
+                margin: 10px 0 10px;
+            }
+        .guide{
+            display: flex;
+            flex-direction: column;
+
+            .info-title{
+                margin: 10px 0 10px;
+                margin-right:5px;
+
+            }
+            .info-detail{
+                margin: 10px 0 10px;
+                font-size: 10px;
+            }
+        }
+    }
+    // .select{
+    //     display: flex;
+    //     flex-direction: row;
+
+    //     .info-title{
+    //         margin: 10px 0 10px;
+    //         margin-right: 50px;
+    //     }
+    //     .info-detail{
+    //         margin: 10px 0 10px;
+    //         margin-left: 15px;
+    //     }
+    //     }
+        // .how-deli{
+        //     display: flex;
+        //     flex-direction: row;
+
+        //     .info-title{
+        //         margin: 10px 0 10px;
+        //         margin-right: 50px;
+        //     }
+        //     .info-detail{
+        //         margin: 10px 0 10px;
+        //         margin-right: 50px;
+        //     }
+        // }
+    }
+
+    .count{
+        display: flex;
+        flex-direction: column;
+    }
+    .total{
+        display: flex;
+        flex-direction: row;
+    }
+    .total-price{
+        text-align:right
+    }
+    .goto{
+        align-items: end;
+        margin-top:15px;
+    }
+    .cart{
+        display: flex;
+        flex-direction: row;
+        align-items: end;
+    }
+
+
+  }

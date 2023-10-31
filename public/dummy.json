@@ -2,49 +2,346 @@
     "data": [
       {
         "id": 1,
-        "name": "상품1",
-        "price": "500",
+        "category":"국산",
+        "brand":"델몬트",
+        "name": "사과 (4개입)",
+        "price": 4980,
+        "discountedRate": "30",
+        "discountedPrice": "3486",
+        "img":"https://media.istockphoto.com/id/184276818/ko/%EC%82%AC%EC%A7%84/%EB%A0%88%EB%93%9C-%EC%82%AC%EA%B3%BC%EB%82%98%EB%AC%B4.jpg?s=612x612&w=0&k=20&c=qe0XwDHYbQFgVaqM2unXZWVqI7kV2SSfXrCYaHsdmWM=",
+
+        "subTitle" : "부드러운 달콤함의 끝판왕",
+        "detail" : "달콤한 맛과 향기로 매혹하는 복숭아. 더 맛있게 즐기고 싶다면, 어떤 품종인지 확인해보세요. 내 취향에 맞는 복숭아로 더욱 즐거운 여름을 보낼 수 있을거에요. 지금 소개하는 [국산] 복숭아는 백도 품종입니다. 복숭아 중에서도 당도가 뛰어나며 어르신도 즐기기 좋아요.",
+        "deliveryType" : "일반배송",
+        "seller" : "푸릇파릇",
+        "packageType" : "상온(박스포장)",
+        "unit" :  "1봉",
+        "capacity" : "6개입",
+        "origin" : "국산",
+        "notification" : "상품 특성상 3%내외의 중량차이가 있을 수 있습니다.",
+        "storageMethod" : "냉장",
+        "weight" : "5KG",
+        "variety" : "기타",
+        "harvestSeason" : "7월 상순- 9월 하순",
+        "recommendation" : true,
+        "subscription" : false
+      
+      
+      
+      
+      
+      },
+
+
+
+      {
+        "id": 2,
+        "category":"국산",
+        "brand":"썬키스트",
+        "name": "복숭아",
+        "price": 32500,
+        "discountedRate": "30",
+        "discountedPrice": "30000",
         "img":"https://media.istockphoto.com/id/184276818/ko/%EC%82%AC%EC%A7%84/%EB%A0%88%EB%93%9C-%EC%82%AC%EA%B3%BC%EB%82%98%EB%AC%B4.jpg?s=612x612&w=0&k=20&c=qe0XwDHYbQFgVaqM2unXZWVqI7kV2SSfXrCYaHsdmWM="
       },
       {
-        "id": 2,
-        "name": "상품2",
-        "price": "504"
-      },
-      {
         "id": 3,
-        "name": "상품3",
-        "price": "504"
+        "category":"국산",
+        "brand":"제스프리",
+        "name": "키위",
+        "price": 2500,
+        "discountedRate": "20",
+        "discountedPrice": "2000",
+        "img":"https://media.istockphoto.com/id/184276818/ko/%EC%82%AC%EC%A7%84/%EB%A0%88%EB%93%9C-%EC%82%AC%EA%B3%BC%EB%82%98%EB%AC%B4.jpg?s=612x612&w=0&k=20&c=qe0XwDHYbQFgVaqM2unXZWVqI7kV2SSfXrCYaHsdmWM="
       },
       {
         "id": 4,
-        "name": "상품4",
-        "price": "500"
+        "category":"수입",
+        "brand":"제스프리",
+        "name": "키위",
+        "price": 2500,
+        "discountedRate": "20",
+        "discountedPrice": "2000",
+        "img":"https://media.istockphoto.com/id/827157432/ko/%EC%82%AC%EC%A7%84/%ED%82%A4-%EC%9C%84-%EA%B3%BC%EC%9D%BC-%ED%9D%B0%EC%83%89-%EC%A0%88%EC%97%B0-%EC%A1%B0%EA%B0%81.jpg?s=612x612&w=0&k=20&c=tQp_je5W0-Mft3-VftC0Cmm-MoAqjlY6qV0pccRJFB4="
       },
       {
         "id": 5,
-        "name": "상품5",
-        "price": "400"
+        "category":"수입",
+        "brand":"제스프리",
+        "name": "키위",
+        "price": "2500",
+        "discountedRate": "20",
+        "discountedPrice": "2000",
+        "img":"https://media.istockphoto.com/id/827157432/ko/%EC%82%AC%EC%A7%84/%ED%82%A4-%EC%9C%84-%EA%B3%BC%EC%9D%BC-%ED%9D%B0%EC%83%89-%EC%A0%88%EC%97%B0-%EC%A1%B0%EA%B0%81.jpg?s=612x612&w=0&k=20&c=tQp_je5W0-Mft3-VftC0Cmm-MoAqjlY6qV0pccRJFB4="
       },
       {
         "id": 6,
-        "name": "상품6",
-        "price": "220"
+        "brand":"제스프리",
+        "name": "키위",
+        "price": 2000,
+        "discountedRate": "20",
+        "discountedPrice": "2000",
+        "img":"https://media.istockphoto.com/id/827157432/ko/%EC%82%AC%EC%A7%84/%ED%82%A4-%EC%9C%84-%EA%B3%BC%EC%9D%BC-%ED%9D%B0%EC%83%89-%EC%A0%88%EC%97%B0-%EC%A1%B0%EA%B0%81.jpg?s=612x612&w=0&k=20&c=tQp_je5W0-Mft3-VftC0Cmm-MoAqjlY6qV0pccRJFB4="
       },
       {
         "id": 7,
-        "name": "상품7",
-        "price": "104"
+        "category":"국산",
+        "brand":"농협",
+        "name": "영주 사과",
+        "price": 3500,
+        "discountedRate": "10",
+        "discountedPrice": "3150",
+        "img":"https://media.istockphoto.com/id/184927564/ko/%EC%82%AC%EC%A7%84/close-up-of-%EB%A0%88%EB%93%9C-%EC%95%8C%EB%AC%B4%EB%8D%B0%EB%82%98-%EA%B0%88%EB%9D%BC-%EC%82%AC%EA%B3%BC%EB%93%A4.jpg?s=612x612&w=0&k=20&c=WniOrKed0Jc-f2vjhaC4EEmYFHF0TqieE_Wm3q8sSZ0="
       },
       {
         "id": 8,
-        "name": "상품8",
-        "price": "304"
+        "category":"냉동",
+        "brand":"델몬트",
+        "name": "망고",
+        "price": 25000,
+        "discountedRate": "10",
+        "discountedPrice": "22500",
+        "img":"https://media.istockphoto.com/id/168370138/ko/%EC%82%AC%EC%A7%84/mango.jpg?s=612x612&w=0&k=20&c=o52YSIiXLL7MFYkZJOzllRxnVtIT3dKjse0NRqvggL8="
       },
       {
         "id": 9,
-        "name": "상품9",
-        "price": "511"
+        "category":"냉동",
+        "brand":"제스프리",
+        "name": "키위",
+        "price": 2500,
+        "discountedRate": "20",
+        "discountedPrice": "2000",
+        "img":"https://media.istockphoto.com/id/827157432/ko/%EC%82%AC%EC%A7%84/%ED%82%A4-%EC%9C%84-%EA%B3%BC%EC%9D%BC-%ED%9D%B0%EC%83%89-%EC%A0%88%EC%97%B0-%EC%A1%B0%EA%B0%81.jpg?s=612x612&w=0&k=20&c=tQp_je5W0-Mft3-VftC0Cmm-MoAqjlY6qV0pccRJFB4="
+      },
+      {
+        "id": 10,
+        "category":"수입",
+        "brand":"델몬트",
+        "name": "키위",
+        "price": 4000,
+        "discountedRate": "10",
+        "discountedPrice": "2000",
+        "img":"https://media.istockphoto.com/id/827157432/ko/%EC%82%AC%EC%A7%84/%ED%82%A4-%EC%9C%84-%EA%B3%BC%EC%9D%BC-%ED%9D%B0%EC%83%89-%EC%A0%88%EC%97%B0-%EC%A1%B0%EA%B0%81.jpg?s=612x612&w=0&k=20&c=tQp_je5W0-Mft3-VftC0Cmm-MoAqjlY6qV0pccRJFB4="
+      },
+      {
+        "id": 11,
+        "category":"수입",
+        "brand":"제스프리",
+        "name": "포도",
+        "price": 12000,
+        "discountedRate": "20",
+        "discountedPrice": "10000",
+        "img":"https://media.istockphoto.com/id/682505832/ko/%EC%82%AC%EC%A7%84/%EC%9E%98-%EC%9D%B5%EC%9D%80-%EB%B9%A8%EA%B0%84-%ED%8F%AC%EB%8F%84-%ED%9D%B0%EC%83%89%EC%97%90-%EA%B3%A0%EB%A6%BD-%EB%90%9C-%EC%9E%8E%ED%95%91%ED%81%AC-%EB%AC%B4%EB%A6%AC-%ED%81%B4%EB%A6%AC%ED%95%91-%EA%B2%BD%EB%A1%9C-%ED%8F%AC%ED%95%A8-%EC%A0%84%EC%B2%B4-%ED%94%BC%EC%82%AC%EA%B3%84-%EC%8B%AC%EB%8F%84.jpg?s=612x612&w=0&k=20&c=FHCaM5TYwLbAf0iF499erb8NYvooSVNGQu-DwHNaLC0="
+      },
+      {
+        "id": 12,
+        "category":"국산",
+        "brand":"제스프리",
+        "name": "오렌지",
+        "price": 25000,
+        "discountedRate": "20",
+        "discountedPrice": "20000",
+        "img":"https://media.istockphoto.com/id/185284489/ko/%EC%82%AC%EC%A7%84/%EC%98%A4%EB%9E%91%EC%A3%BC.jpg?s=612x612&w=0&k=20&c=FgITWeg1cK4sIydrOIvN9BxUJ2N32kyzgOEtxHHVWaM="
+      },
+      {
+        "id": 13,
+        "category":"국산",
+        "brand":"델몬트",
+        "name": "오렌지",
+        "price": 25000,
+        "discountedRate": "20",
+        "discountedPrice": "20000",
+        "img":"https://media.istockphoto.com/id/185284489/ko/%EC%82%AC%EC%A7%84/%EC%98%A4%EB%9E%91%EC%A3%BC.jpg?s=612x612&w=0&k=20&c=FgITWeg1cK4sIydrOIvN9BxUJ2N32kyzgOEtxHHVWaM="
+      },
+      {
+        "id": 14,
+        "category":"국산",
+        "brand":"델몬트",
+        "name": "오렌지",
+        "price": 25000,
+        "discountedRate": "20",
+        "discountedPrice": "20000",
+        "img":"https://media.istockphoto.com/id/185284489/ko/%EC%82%AC%EC%A7%84/%EC%98%A4%EB%9E%91%EC%A3%BC.jpg?s=612x612&w=0&k=20&c=FgITWeg1cK4sIydrOIvN9BxUJ2N32kyzgOEtxHHVWaM="
+      },
+      {
+        "id": 15,
+        "category":"국산",
+        "brand":"델몬트",
+        "name": "오렌지",
+        "price": 25000,
+        "discountedRate": "20",
+        "discountedPrice": "20000",
+        "img":"https://media.istockphoto.com/id/185284489/ko/%EC%82%AC%EC%A7%84/%EC%98%A4%EB%9E%91%EC%A3%BC.jpg?s=612x612&w=0&k=20&c=FgITWeg1cK4sIydrOIvN9BxUJ2N32kyzgOEtxHHVWaM="
+      },
+      {
+        "id": 16,
+        "category":"국산",
+        "brand":"델몬트",
+        "name": "오렌지",
+        "price": 25000,
+        "discountedRate": "20",
+        "discountedPrice": "20000",
+        "img":"https://media.istockphoto.com/id/185284489/ko/%EC%82%AC%EC%A7%84/%EC%98%A4%EB%9E%91%EC%A3%BC.jpg?s=612x612&w=0&k=20&c=FgITWeg1cK4sIydrOIvN9BxUJ2N32kyzgOEtxHHVWaM="
+      },
+      {
+        "id": 17,
+        "category":"국산",
+        "brand":"델몬트",
+        "name": "오렌지",
+        "price": 25000,
+        "discountedRate": "20",
+        "discountedPrice": "20000",
+        "img":"https://media.istockphoto.com/id/185284489/ko/%EC%82%AC%EC%A7%84/%EC%98%A4%EB%9E%91%EC%A3%BC.jpg?s=612x612&w=0&k=20&c=FgITWeg1cK4sIydrOIvN9BxUJ2N32kyzgOEtxHHVWaM="
+      },
+      {
+        "id": 18,
+        "category":"국산",
+        "brand":"델몬트",
+        "name": "오렌지",
+        "price": 25000,
+        "discountedRate": "20",
+        "discountedPrice": "20000",
+        "img":"https://media.istockphoto.com/id/185284489/ko/%EC%82%AC%EC%A7%84/%EC%98%A4%EB%9E%91%EC%A3%BC.jpg?s=612x612&w=0&k=20&c=FgITWeg1cK4sIydrOIvN9BxUJ2N32kyzgOEtxHHVWaM="
+      },
+      {
+        "id": 19,
+        "category":"국산",
+        "brand":"제스프리",
+        "name": "오렌지",
+        "price": 25000,
+        "discountedRate": "20",
+        "discountedPrice": "20000",
+        "img":"https://media.istockphoto.com/id/185284489/ko/%EC%82%AC%EC%A7%84/%EC%98%A4%EB%9E%91%EC%A3%BC.jpg?s=612x612&w=0&k=20&c=FgITWeg1cK4sIydrOIvN9BxUJ2N32kyzgOEtxHHVWaM="
+      },
+      {
+        "id": 20,
+        "category":"국산",
+        "brand":"제스프리",
+        "name": "오렌지",
+        "price": 25000,
+        "discountedRate": "20",
+        "discountedPrice": "20000",
+        "img":"https://media.istockphoto.com/id/185284489/ko/%EC%82%AC%EC%A7%84/%EC%98%A4%EB%9E%91%EC%A3%BC.jpg?s=612x612&w=0&k=20&c=FgITWeg1cK4sIydrOIvN9BxUJ2N32kyzgOEtxHHVWaM="
+      },
+      {
+        "id": 21,
+        "category":"국산",
+        "brand":"제스프리",
+        "name": "오렌지",
+        "price": 25000,
+        "discountedRate": "20",
+        "discountedPrice": "20000",
+        "img":"https://media.istockphoto.com/id/185284489/ko/%EC%82%AC%EC%A7%84/%EC%98%A4%EB%9E%91%EC%A3%BC.jpg?s=612x612&w=0&k=20&c=FgITWeg1cK4sIydrOIvN9BxUJ2N32kyzgOEtxHHVWaM="
+      },
+      {
+        "id": 22,
+        "category":"국산",
+        "brand":"델몬트",
+        "name": "오렌지",
+        "price": 25000,
+        "discountedRate": "20",
+        "discountedPrice": "20000",
+        "img":"https://media.istockphoto.com/id/185284489/ko/%EC%82%AC%EC%A7%84/%EC%98%A4%EB%9E%91%EC%A3%BC.jpg?s=612x612&w=0&k=20&c=FgITWeg1cK4sIydrOIvN9BxUJ2N32kyzgOEtxHHVWaM="
+      },
+      {
+        "id": 23,
+        "category":"국산",
+        "brand":"제스프리",
+        "name": "오렌지",
+        "price": 25000,
+        "discountedRate": "20",
+        "discountedPrice": "20000",
+        "img":"https://media.istockphoto.com/id/185284489/ko/%EC%82%AC%EC%A7%84/%EC%98%A4%EB%9E%91%EC%A3%BC.jpg?s=612x612&w=0&k=20&c=FgITWeg1cK4sIydrOIvN9BxUJ2N32kyzgOEtxHHVWaM="
+      },
+      {
+        "id": 24,
+        "category":"국산",
+        "brand":"제스프리",
+        "name": "오렌지",
+        "price": 25000,
+        "discountedRate": "20",
+        "discountedPrice": "20000",
+        "img":"https://media.istockphoto.com/id/185284489/ko/%EC%82%AC%EC%A7%84/%EC%98%A4%EB%9E%91%EC%A3%BC.jpg?s=612x612&w=0&k=20&c=FgITWeg1cK4sIydrOIvN9BxUJ2N32kyzgOEtxHHVWaM="
+      },
+      {
+        "id": 25,
+        "category":"국산",
+        "brand":"제스프리",
+        "name": "오렌지",
+        "price": 25000,
+        "discountedRate": "20",
+        "discountedPrice": "20000",
+        "img":"https://media.istockphoto.com/id/185284489/ko/%EC%82%AC%EC%A7%84/%EC%98%A4%EB%9E%91%EC%A3%BC.jpg?s=612x612&w=0&k=20&c=FgITWeg1cK4sIydrOIvN9BxUJ2N32kyzgOEtxHHVWaM="
+      },
+      {
+        "id": 26,
+        "category":"국산",
+        "brand":"제스프리",
+        "name": "오렌지",
+        "price": 25000,
+        "discountedRate": "20",
+        "discountedPrice": "20000",
+        "img":"https://media.istockphoto.com/id/185284489/ko/%EC%82%AC%EC%A7%84/%EC%98%A4%EB%9E%91%EC%A3%BC.jpg?s=612x612&w=0&k=20&c=FgITWeg1cK4sIydrOIvN9BxUJ2N32kyzgOEtxHHVWaM="
+      },
+      {
+        "id": 27,
+        "category":"국산",
+        "brand":"제스프리",
+        "name": "오렌지",
+        "price": 25000,
+        "discountedRate": "20",
+        "discountedPrice": "20000",
+        "img":"https://media.istockphoto.com/id/185284489/ko/%EC%82%AC%EC%A7%84/%EC%98%A4%EB%9E%91%EC%A3%BC.jpg?s=612x612&w=0&k=20&c=FgITWeg1cK4sIydrOIvN9BxUJ2N32kyzgOEtxHHVWaM="
+      },
+      {
+        "id": 28,
+        "category":"국산",
+        "brand":"델몬트",
+        "name": "오렌지",
+        "price": 25000,
+        "discountedRate": "20",
+        "discountedPrice": "20000",
+        "img":"https://media.istockphoto.com/id/185284489/ko/%EC%82%AC%EC%A7%84/%EC%98%A4%EB%9E%91%EC%A3%BC.jpg?s=612x612&w=0&k=20&c=FgITWeg1cK4sIydrOIvN9BxUJ2N32kyzgOEtxHHVWaM="
+      },
+      {
+        "id": 29,
+        "category":"국산",
+        "brand":"제스프리",
+        "name": "오렌지",
+        "price": 25000,
+        "discountedRate": "20",
+        "discountedPrice": "20000",
+        "img":"https://media.istockphoto.com/id/185284489/ko/%EC%82%AC%EC%A7%84/%EC%98%A4%EB%9E%91%EC%A3%BC.jpg?s=612x612&w=0&k=20&c=FgITWeg1cK4sIydrOIvN9BxUJ2N32kyzgOEtxHHVWaM="
+      },
+      {
+        "id": 30,
+        "category":"국산",
+        "brand":"제스프리",
+        "name": "오렌지",
+        "price": 25000,
+        "discountedRate": "20",
+        "discountedPrice": "20000",
+        "img":"https://media.istockphoto.com/id/185284489/ko/%EC%82%AC%EC%A7%84/%EC%98%A4%EB%9E%91%EC%A3%BC.jpg?s=612x612&w=0&k=20&c=FgITWeg1cK4sIydrOIvN9BxUJ2N32kyzgOEtxHHVWaM="
+      },
+      {
+        "id": 31,
+        "category":"국산",
+        "brand":"델몬트",
+        "name": "오렌지",
+        "price": 25000,
+        "discountedRate": "20",
+        "discountedPrice": "20000",
+        "img":"https://media.istockphoto.com/id/185284489/ko/%EC%82%AC%EC%A7%84/%EC%98%A4%EB%9E%91%EC%A3%BC.jpg?s=612x612&w=0&k=20&c=FgITWeg1cK4sIydrOIvN9BxUJ2N32kyzgOEtxHHVWaM="
+      },
+      {
+        "id": 32,
+        "category":"국산",
+        "brand":"제스프리",
+        "name": "오렌지",
+        "price": 25000,
+        "discountedRate": "20",
+        "discountedPrice": "20000",
+        "img":"https://media.istockphoto.com/id/185284489/ko/%EC%82%AC%EC%A7%84/%EC%98%A4%EB%9E%91%EC%A3%BC.jpg?s=612x612&w=0&k=20&c=FgITWeg1cK4sIydrOIvN9BxUJ2N32kyzgOEtxHHVWaM="
       }
     ]
   }

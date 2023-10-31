@@ -11,7 +11,7 @@ import Cart from "./pages/Cart";
 
 import ProductList from './test/Test';
 import { ShoppingProvider, useShopping } from './test/ShoppingContext';
-
+import Detail from './test/Detail';
 
 function App() {
   return (
@@ -24,6 +24,8 @@ function App() {
             <Route path="/Login" element={<Login />} />
             <Route path="/Test" element={<ProductList/>}/>
             <Route path="/Cart" element={<Cart/>}/>
+
+            <Route path="test/products/:productId" element={<Detail/>} />
           </Routes>
           <Footer />
         </div>

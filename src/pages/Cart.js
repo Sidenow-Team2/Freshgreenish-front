@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { setCurrentTab } from '../slices/TabSlice';
 import { setFruits } from '../slices/fruitListSlice';
@@ -16,6 +16,11 @@ function Cart() {
     const handleTabChange = (tab) => {
         dispatch(setCurrentTab(tab));
     }
+
+    useEffect(()=>{
+        console.log(currentTab)
+        console.log('test')
+    },[])
 
     return (
         <div className="container">

@@ -12,6 +12,7 @@ function QuantityControl({ fruitId, quantity }) {
 
   const handleQuantityChange = (changeAmount) => {
     dispatch(changeQuantity({ id: fruitId, change: changeAmount }));
+    console.log('work')
   };
 
   return (

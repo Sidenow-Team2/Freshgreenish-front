@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import store from './redux/store';
+// import { store } from './../src/store/store'; // Redux store 가져오기
 import App from './App';
 
 ReactDOM.render(

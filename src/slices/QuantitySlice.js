@@ -13,6 +13,8 @@ export const quantitySlice = createSlice({
       const fruit = state.fruits.find(fruit => fruit.id === action.payload.id);
       const newQuantity = fruit.quantity + action.payload.change;
       fruit.quantity = newQuantity > 0 ? newQuantity : 1;
+      console.log(newQuantity,fruit,state.fruits)
+      console.log(initialQuantityState)
     }
   }
 });

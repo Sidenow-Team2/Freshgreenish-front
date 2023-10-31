@@ -185,6 +185,8 @@ export default function Header() {
                   color="inherit"
                   disableRipple
                   style={{ fontSize: "16px", whiteSpace: "nowrap" }}
+
+                  onClick={()=>navigate('/test')}
                 >
                   국산 과일
                 </Button>

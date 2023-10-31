@@ -1,8 +1,23 @@
-import React from "react";
+import React, { useEffect, useState } from 'react';
 import Banner from "../components/Banner";
 import Card from "../components/Card";
+import { currentTab } from "../slices/TabSlice";
+
+
+import { useDispatch, useSelector } from 'react-redux';
+import { setCurrentTab } from '../slices/TabSlice';
+import { setFruits } from '../slices/fruitListSlice';
 
 function Main() {
+  const dispatch = useDispatch();
+  // const currentTab = useSelector(state => state.fruits.currentTab);
+
+  useEffect(()=>{
+      dispatch(setCurrentTab("국산 과일"));
+      // console.log(currentTab)
+      console.log('test')
+  },[])
+
   return (
     <React.Fragment>
      {/* 슬라이드 배너 */}
